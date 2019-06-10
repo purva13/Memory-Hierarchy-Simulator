@@ -1,0 +1,9 @@
+Input parameters for validation runs:
+    ./sim_cache 16 1024 2 0 0 0 0 gcc_trace.txt > validation0.txt
+    ./sim_cache 16 1024 1 0 0 0 0 perl_trace.txt > validation1.txt
+    ./sim_cache 16 1024 2 0 0 1 0 gcc_trace.txt > validation2.txt
+    ./sim_cache 16 1024 2 0 0 2 0 vortex_trace.txt > validation3.txt
+    ./sim_cache 16 1024 2 8192 4 0 0 gcc_trace.txt > validation4.txt
+    ./sim_cache 16 1024 1 8192 4 0 0 go_trace.txt > validation5.txt
+    ./sim_cache 16 1024 2 8192 4 0 1 gcc_trace.txt > validation6.txt
+    ./sim_cache 16 1024 1 8192 4 0 1 compress_trace.txt > validation7.txt
